@@ -29,7 +29,7 @@ function mailfunction($mail_reciever_email, $mail_reciever_name, $mail_msg, $att
 
     $mail->addAddress($mail_reciever_email, $mail_reciever_name);
 
-    $mail->Subject = 'Someone Contacted You!';
+    $mail->Subject = 'Gracias, alguien lo contactará!';
 
     $mail->isHTML($isHtml = true );
 
